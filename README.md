@@ -26,7 +26,7 @@ To run the code in this repository, you will need the following dependencies:
 To use the code in this repository with the Kaggle dataset, simply download the CSV file and save it in your local directory. Next, run the main.ipynb script to train the machine learning model and predict the explicitness of songs. You can specify the path to the Spotify Tracks Dataset CSV file as a command-line argument. For example:
 
 ```
-python main.ipynb "spotify_tracks.csv"
+python main.ipynb "dataset.csv"
 ```
 
 This will train the model on the songs in the Spotify Tracks Dataset and predict the explicitness of songs.
